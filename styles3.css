@@ -1,0 +1,19 @@
+body{
+  color: #090b08;
+  font-family: sans-serif;
+  font-size: 20;
+  background-color: #ffe9ef;
+}
+h1{
+  font-size: 48;
+  line-height: 1em;
+  font-family: times new roman;
+  text-align: center;
+  text-transform: uppercase;
+}
+p{
+  font-size: 24;
+  font-family: lobster;
+  text-align: center;
+  width:100%;
+}

@@ -1,0 +1,87 @@
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles9.css">
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+<title> FINEST STROKES </title>
+</head>
+<body>
+  <div class="header-left">
+  <img src="logo.jpg" alt="Calligraphy" style="width:80px;height:80px;">
+  </div>
+  <div class="header-center">
+    <h1 style="text-align:center;">FINEST STROKES</h1>
+   </div>
+   <div class="header-right"> 
+   <img src="logo.jpg" alt="Calligraphy" style="width:80px;height:80px;">
+  </div>
+  
+  <div class="main">
+  
+<div class="button-grp">
+<a href="home.html" title="current folder" target="_blank"> <button> <b>HOME</b> </button> </a>
+<a href="abt.html" title="current folder" target="_blank"> <button> <b>ABOUT</b> </button> </a>
+<a href="supply.html" title="current folder" target="_blank"> <button> <b>SUPPLIES</b> </button> </a>
+<a href="workshop.html" title="current folder" target="_blank"> <button> <b>WORKSHOP</b> </button> </a>
+  <a href="contact.html" title="current folder" target="_blank"> <button> <b>CONTACT</b> </button> </a>
+</div>
+<br>
+<br>
+<div id="slideshow-example" data-component="slideshow">
+		<div role="list">
+			<div class="slide">
+				<img src="img2.jpg" alt="" style="height: 60%; width:70%; border: 0.5cm ridge purple;">
+			</div>
+			<div class="slide">
+				<img src="img6.jpg" alt="" style="height: 60%; width:70%; border: 0.5cm ridge purple;">
+			</div>
+			<div class="slide">
+				<img src="img5.jpg" alt="" style="height: 60%; width:70%; border: 0.5cm ridge purple;">
+			</div>
+			<div class="slide">
+				<img src="img4.png" alt="" style="height: 60%; width:70%; border: 0.5cm ridge purple;">
+			</div>
+			<div class="slide">
+				<img src="http://www.callifonts.com/images/784_44b-600dpi.jpg" alt="" style="height: 60%; width:70%; border: 0.5cm ridge purple;">
+			</div>
+		</div>
+	</div>
+
+<p> 
+<b>Calligraphy</b> is a visual art related to writing. It is the design and execution of lettering with a broad-tipped instrument, brush, or other writing instrument. A contemporary calligraphic practice can be defined as<strong>"the art of giving form to signs in an expressive, harmonious, and skillful manner"</strong>.
+<br>
+Calligraphy continues to flourish in the forms of wedding and event invitations, font design and typography, original hand-lettered logo design, religious art, announcements, graphic design and commissioned calligraphic art, cut stone inscriptions, memorial documents, testimonials, certificates, maps, and other written works.
+<br>
+<em>The principal tools for a calligrapher are the pen and the brush.</em> Calligraphy pens write with nibs that may be flat, round, or pointed.For some decorative purposes, multi-nibbed pens—steel brushes—can be used.
+
+</p>
+<script>
+var slideshows = document.querySelectorAll('[data-component="slideshow"]');
+slideshows.forEach(initSlideShow);
+
+function initSlideShow(slideshow) {
+
+	var slides = document.querySelectorAll(`#${slideshow.id} [role="list"] .slide`);
+
+	var index = 0, time = 3000;
+	slides[index].classList.add('active');
+
+	setInterval( () => {
+		slides[index].classList.remove('active');
+		
+		index++;
+		if (index === slides.length) index = 0;
+
+		slides[index].classList.add('active');
+
+	}, time);
+}
+</script>
+</div>
+<footer>
+<p> Creator : Annarathna </p>
+<p class="copyright">Copyright 2020 @ Finest Strokes</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+  color: #090b08;
+  font-family: Georgia Italic;
+  font-size: 20;
+  background-color: #ffe9ef;
+}
+.button-grp button {
+  background-color: purple; 
+  border: 1px groove black; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+  width: 20%;
+  font-family: Georgia Italic;
+}
+
+
+.button-grp:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.button-grp button:hover {
+  background-color: #CC0099;
+}
