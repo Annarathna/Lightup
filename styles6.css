@@ -1,0 +1,123 @@
+body{
+  color: #090b08;
+  font-family: 'Aladin', cursive;
+  font-size: 20;
+  background-color: #ffe9ef;
+   text-align: center;
+}
+h1{
+  font-size: 48;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Aladin', cursive;
+}
+p{
+  font-size: 24;
+  font-family: 'Aladin', cursive;
+  text-align: center;
+}
+h2{
+  font-size: 36;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Aladin', cursive;
+}
+.header-left img {
+  float: left;
+  width: 200px;
+  margin:5px;
+  border: 0.15cm dashed purple;
+}
+
+.header-center h1 {
+	position:absolute;
+	text-align: center;
+	width:1350px;
+	color: black;
+	font-family: 'Rye', cursive;
+	text-decoration: underline;
+	text-shadow: 2px 2px purple;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+
+.header-right img {
+  float: right;
+  width: 200px;
+  margin:5px;
+  border: 0.15cm dashed purple;
+}
+
+.main {
+  margin: auto; 
+  padding: 120px 10px;
+}
+
+.button-grp button {
+  background-color: purple; 
+  border: 0.1cm groove black; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  display:block;
+  float:left; 
+  width: 20%;
+  font-family: 'Aladin', cursive;
+}
+
+
+.button-grp:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.button-grp button:hover {
+  background-color: #CC0099;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+  background-color: #CC0099;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+img{
+	height: 5cm;
+	width: 7cm;
+    border: 0.2cm groove purple;
+}
+
+.btn button{
+	background-color: purple; 
+	color: white;
+	text-align: center;
+	font-size: 0.8cm;
+	font-family: Comic Sans MS; 
+	border: 0.2cm double black;
+	display: inline-block;
+}
+.btn button:hover {
+  background-color: #CC0099;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:active {
+  background-color: #CC0099;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: purple;
+  color: white;
+}
+
+.copyright {
+text-align: center;
+}
+
